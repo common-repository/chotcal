@@ -1,0 +1,350 @@
+#cal-main-page {
+    background-color: #FFF; 
+}
+
+#cal-main-manage {
+	float:left;
+    background-color: #FFF; 
+    margin-top:10px;
+    padding-right:10px;
+}
+
+h3.opt-title { 
+	margin-top:0px !important; 
+	line-height:26px;
+	padding-left:10px;
+	}
+	
+div.postbox label { padding-left:10px; }
+
+.fermdiv { padding:8px; }
+.bdbut { margin-left:10px; }
+.butpag { 
+  float:right;
+  margin-left:10px;
+  margin-right:10px; }
+
+
+.jours {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+.tab_numero {
+	background:url(../img/icone.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #0000FF;
+	font-weight: bolder;
+	font-style: italic;
+	/* border: 2px solid #000099; */
+}
+
+#redit {
+	padding-right:8px;
+	}
+	
+.tab_cal {
+	background:url(../img/entete.jpg);
+	background-repeat:no-repeat;
+	border:solid 2px #0F13C7 !important;
+	width:345px !important;
+	border-collapse:separate !important;
+}
+
+td.noborder
+	{
+	border:0px !important;
+}
+
+.tab_cal td
+	{
+	padding:0 !important;
+	}
+
+.numjour {
+	width:100%;
+	background-color:#99FFCC;
+	}
+.numferie {
+	width:100%;
+	color:#00FFFF;
+	background-color:#3322FF;
+	}
+.ferie {
+	border: 1px solid #000099;
+	background-color:#3973c7;
+}
+.ferme {
+	background-color:#FFFF00;
+	background-image: url(../img/ferme.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 42px 8px;
+}
+
+.out {
+	background-color:#999999;
+	border:0px !important; 
+}
+
+.descriptif {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding-left:10px;
+}
+.tjour {
+	width:45px;
+	/* height:60px; */
+	border:1px solid #0F13C7 !important; 
+	background-color:#FFFFFF;
+}
+
+.tjour-first {
+	width:30px;
+	/* height:60px; */
+	border:1px solid #0F13C7 !important; 
+	background-color:#FFFFFF;
+}
+
+.cell {
+	border-width:0px; 
+	background-color:#FFFFFF;
+}
+
+.head {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	float:left;
+	width:100%;
+	height:20px;
+	color:#000000;
+	background-color:#99FFCC;
+	text-align:center;
+	}
+	
+.headferie {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	float:left;
+	width:100%;
+	height:20px;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#3366AA;
+	}
+
+.headdimanche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	float:left;
+	width:100%;
+	height:20px;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#00CCFF;
+	}
+	
+.cell-header {
+	float:left;
+	width:30px;
+	height:20px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:center;
+	}
+
+.cell-legend {
+	display:inline;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:center;
+	margin-left:15px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+	
+fieldset.flegend { padding:5px !important; }
+fieldset.mlegend { padding:5px !important; border:1px solid !important; }
+	
+.cell-main {
+	float:left;
+	width:45px;
+	height:20px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:center;
+	}
+	
+.cell-middle {
+	border-top:1px solid #0F13C7; 
+	border-bottom:1px solid #0F13C7;
+	}
+	
+.cell-last {
+	border-bottom:1px solid #0F13C7;
+	}
+	
+.img-cal-passe {
+	border:0px;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-left:15px;
+	opacity:0.5;
+}
+
+.img-cal {
+	border:0px;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-left:15px;
+	opacity:1.0;
+}
+
+.img-legend {
+	display:inline;
+	margin-left:15px;
+	margin-right:10px;
+	vertical-align:middle;
+	}
+
+
+.cal-legend {
+	float:right;
+	margin:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.cal-event {
+	margin:10px;
+
+}
+
+.cal-hr	{
+  	clear: both; 
+  	visibility: hidden;
+  	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	} 
+
+a .img-cal:hover {
+	width:18px;
+	height:18px;
+	opacity:1.0;
+	} 
+
+#month-prev {
+	float:left; 
+	margin-left:10px;
+	margin-top: 0px !important;
+	}
+	
+#month-next {
+	float:right;
+	margin-right:10px;
+	margin-top: 0px !important;
+	}
+	
+p.month-prev 
+	{
+	float:left;
+	margin-left:10px !important;
+	margin-right:0px !important;
+	font-size:9px;
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+	}
+p.month-next 
+	{
+	float:right;
+	margin-left:0px !important;
+	margin-right:10px !important;
+	font-size:9px;
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+	}
+
+p.mois-en-cours {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color:#000000;
+	font-weight: bold;
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+	line-height:32px !important;
+	vertical-align:top !important;
+	text-align:center;
+}
+	
+.tooltip { position:relative; z-index:24; }
+.tooltip span { display:none;}
+.tooltip:hover {z-index:25;}
+.tooltip:hover span {
+display:block;
+position:absolute;
+width:120px;
+top:15px;
+left:10px;
+background-color:#FCFBDC;
+border:1px solid #333333;
+padding:5px;
+font-size:11px;
+line-height:14px;
+color:#333333;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.fd1 {	
+	background-image:url(../img/barre.png);	
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.fd2 {	
+	background-image:url(../img/barre.png);	
+	background-repeat:no-repeat;
+	background-position:-45px 0px;
+}
+.fd3 {	
+	background-image:url(../img/barre.png);	
+	background-repeat:no-repeat;
+	background-position:-90px 0px;
+}
+
+.nota {
+color:#390;
+font-size:x-small;
+font-style:italic;
+}
+
+
+.chotcal-event-table {
+	padding:10px;
+}
+
+ td.slider {
+	padding:10px !important;
+}
+
+tr.tab-titre {
+	
+	}
